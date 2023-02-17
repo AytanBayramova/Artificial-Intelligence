@@ -1,0 +1,101 @@
+.bars-icon{
+    color: white;
+    font-size: 34px;
+
+}
+
+.navbar{
+    padding: 20px 307px;
+}
+
+@media(max-width:1330px){
+    .navbar{
+        padding: 20px 100px;
+    }
+}
+
+@media(max-width:768px){
+    .navbar{
+        padding: 20px;
+    }
+}
+
+
+
+.nav-link:hover{
+    color: white;
+}
+
+.overlay{
+    background-color: rgba(0,0,0, .7);
+    height: 100vh;
+    position: fixed;
+    width: 0;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    transition: width 1.7s ease;
+    overflow-x: hidden;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+
+  .aktiv{
+    width:100% ;
+  }
+
+.cross-icon{
+    color: #aaa;
+    font-size: 44px;
+}
+
+.overlay a{
+    color: #aaa;
+    font-size: 44px;
+    text-decoration: none;
+    transition: color 1.7s ease;
+}
+
+.overlay a:hover{
+    color: #fff;
+}
+    
+
+.overlay .nav-links{
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.cross-icon{
+    position: absolute;
+    right: 45px;
+    top: 45px;
+    
+}
+
+.cross-icon:hover{
+    color: #fff;
+}
