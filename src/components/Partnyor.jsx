@@ -1,8 +1,8 @@
 import React from 'react'
 
-const Partnyor = () => {
+const Partnyor = ({shirketinLogosu}) => {
   return (
-<img src{} alt="" />  )
+<img src={shirketinLogosu} alt="" />  )
 }
 
 export default Partnyor

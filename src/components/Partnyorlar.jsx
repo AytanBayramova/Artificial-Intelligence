@@ -1,17 +1,17 @@
 import React from 'react'
 import Partnyor from './Partnyor'
-import { Swiper, SwiperSlide } from "swiper/react";
-import PartnyorShirket1 from '../assests/images/Group 400.png'
-import PartnyorShirket2 from '../assests/images/Group 401.png'
-import PartnyorShirket3 from '../assests/images/Group 402.png'
-import PartnyorShirket4 from '../assests/images/Group 403.png'
+ import { Swiper, SwiperSlide } from "swiper/react"
+ import PartnyorShirket1 from '../assests/images/Group 400.png'
+ import PartnyorShirket2 from '../assests/images/Group 401.png'
+ import PartnyorShirket3 from '../assests/images/Group 402.png'
+ import PartnyorShirket4 from '../assests/images/Group 403.png'
 
 
 // Import Swiper styles
-import "swiper/css";
-import {Autoplay} from 'swipper';
+ import "swiper/css";
+import {Autoplay} from 'swiper';
 
-const Partnyorlar = (shirketinLogosu) => {
+const Partnyorlar = () => {
   return (
     <>
   <Swiper
@@ -34,10 +34,12 @@ const Partnyorlar = (shirketinLogosu) => {
           }}
         
         autoplay={
-            {
-                delay:1500
-            }
+          {
+            delay:2000
+          }
         }
+           
+        
        modules={[Autoplay]}
         className="mySwiper"
       >

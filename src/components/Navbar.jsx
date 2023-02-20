@@ -75,7 +75,7 @@ const Navbar = () => {
         </li>
         {/*     <button className='btn btn-primary'>Sign in</button>
 */}
-<Button butonunIcindekiDeyer="Sign in"/>
+<Button butonunIcindekiDeyer="Sign in" klassAdi="btn btn-primary"/>
       </ul>
     </div>
   </div>

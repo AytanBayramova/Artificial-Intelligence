@@ -8,7 +8,7 @@ import Typed from 'react-typed';
 const Introduction = () => {
   return (
     <div className='Introduction-section row'>
-        <div className="intro-lefts-side bg-success col-12 col-md-6">
+        <div className="intro-lefts-side col-12 col-md-6">
             <h6>Next genaretion platform</h6>
             <Typed
             className='yaziEffekti'
@@ -26,7 +26,7 @@ const Introduction = () => {
             <Button butonunIcindekiDeyer="Watch video" klassAdi="btn btn-danger" iconShekli={Icon}/>
 
         </div>
-        <div className="intro-righr-side bg-warning col-12 col-md-6 d-flex justify-content-end">
+        <div className="intro-righr-side col-12 col-md-6 d-flex justify-content-end">
             <img src={rightSideImg} alt="" className='w-100'/>
         </div>
     </div>

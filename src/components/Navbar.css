@@ -22,6 +22,7 @@
 
 
 
+
 .nav-link:hover{
     color: white;
 }
@@ -93,6 +94,7 @@
     position: absolute;
     right: 45px;
     top: 45px;
+    color: #fff;
     
 }
 
