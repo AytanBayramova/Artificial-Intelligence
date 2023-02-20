@@ -9,9 +9,9 @@ import PartnyorShirket4 from '../assests/images/Group 403.png'
 
 // Import Swiper styles
 import "swiper/css";
-import {Autoplay} from 'swipper';
+import {Autoplay} from 'swiper';
 
-const Partnyorlar = (shirketinLogosu) => {
+const Partnyorlar = () => {
   return (
     <>
   <Swiper
