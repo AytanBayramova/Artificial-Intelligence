@@ -73,9 +73,8 @@ const Navbar = () => {
         <li className="nav-item">
           <a className="nav-link text-white" href="#">Contact</a>
         </li>
-        {/*     <button className='btn btn-primary'>Sign in</button>
-*/}
-<Button butonunIcindekiDeyer="Sign in" klassAdi="btn btn-primary"/>
+
+    <Button butonunIcindekiDeyer="Sign in" klassAdi="btn btn-primary"/>
       </ul>
     </div>
   </div>

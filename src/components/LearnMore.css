@@ -1,0 +1,31 @@
+.learnMore-section{
+    padding: 23px 256px ;
+}
+
+.learnMore-section{
+    padding: 20px 307px;
+}
+
+@media(max-width:1330px){
+    .learnMore-section{
+        padding: 20px 100px;
+    }
+}
+
+@media(max-width:768px){
+    .learnMore-section{
+        padding: 20px;
+    }
+}
+
+.Apply{
+    color: #fff !important;
+}
+
+.LearnMore-right-side{
+    padding-top: 160px;
+    padding-right: 30px;
+}
+.learnMore-section btn-primary{
+    margin-top: 50px;
+}

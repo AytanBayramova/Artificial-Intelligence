@@ -1,8 +1,6 @@
 .intro-left-side{
     padding-top: 160px;
-
 }
-
 
 .Introduction-section{
     padding: 20px 307px;
@@ -20,7 +18,6 @@
     }
 }
 
-
 .yaziEffekti{
     font-size: 37px;
     color: #fff;
@@ -30,6 +27,8 @@ p{
     color: #fff;
 }
 
-h6{
-    color: #3A68B8;;
+.Introduction-section  h6{
+    color: #3A68B8;
 }
+
+

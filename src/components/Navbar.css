@@ -101,3 +101,7 @@
 .cross-icon:hover{
     color: #fff;
 }
+
+.navbar-collapse btn-primaryy{
+    margin-left: 200px;
+}
