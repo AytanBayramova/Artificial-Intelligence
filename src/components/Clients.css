@@ -1,0 +1,35 @@
+.clients-section{
+    padding: 23px 256px ;
+}
+
+.clients-section{
+    padding: 20px 307px;
+}
+
+@media(max-width:1330px){
+    .clients-section{
+        padding: 20px 100px;
+    }
+}
+
+@media(max-width:768px){
+    .clients-section{
+        padding: 20px;
+    }
+}
+
+.h3clients{
+    color: #fff !important;
+}
+
+.clients-right-side{
+    padding-top: 160px;
+    padding-right: 30px;
+}
+.clients-section btn-primary{
+    margin-top: 50px;
+}
+
+.clientshekli{
+    margin-top: 130px;
+}
