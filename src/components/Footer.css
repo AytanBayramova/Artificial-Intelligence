@@ -1,3 +1,6 @@
+
 .mail .tel .unvan{
     display: flex;
+    justify-content: space-between;
 }
+

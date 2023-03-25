@@ -14,24 +14,31 @@ const Footer = () => {
         <p>Lorem ipsum is placeholder text commonly used in the graphic, print, and layouts and visual mockups.</p>
 
         <div className="mail">
-          <img src={mailSekli} alt="" />
+          <img className='mailLogo' src={mailSekli} alt="" />
           <p>Company@gmail.com.com</p>
         </div>
 
         <div className="telefon">
-          <img src={telsekli} alt="" />
+          <img className='telefonLogo' src={telsekli} alt="" />
           <p>Phone: (064) 332-1233</p>
         </div>
 
         <div className="unvan">
-          <img src={unvanSekli} alt="" />
+          <img className='unvanLogo' src={unvanSekli} alt="" />
           <p>450 Wall Street, USA, New York</p>
         </div>
 
       </div>
 
 
-      <div className="ikinciHisse"></div>
+      <div className="ikinciHisse">
+        <h2>INFORMATION</h2>
+        <p>New Collection</p>
+        <p>About Store</p>
+        <p>Contact Us</p>
+        <p>Latest News</p>
+
+      </div>
 
 
       <div className="ucuncuHisse"></div>

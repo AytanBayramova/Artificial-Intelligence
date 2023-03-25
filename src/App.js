@@ -1,8 +1,9 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
+import {useState, useEffect} from 'react'
 import './App.css';
 
 import Navbar  from './components/Navbar';
-import { BrowserRouter, Routes, Route} from 'react-router-dom'
+import { BrowserRouter, Routes, Route, Form} from 'react-router-dom'
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import NotFound404 from './pages/NotFound404';
@@ -13,9 +14,24 @@ import Blog from './pages/Blog';
 
 function App() {
 
+  const [loading, setLoading] = useState(false);
+
+  useEffect(()=>{
+    setLoading(true);
+    setTimeout(()=>{
+      setLoading(false);
+
+    },7000);
+  }, []); 
+
   return (
     <>
-    <BrowserRouter>
+    (loading ? (
+      <div className='center'>
+      <div className='ring'></div>
+        <span>Loading...</span>
+     </div> :
+     <BrowserRouter>
     <Navbar/>
 
     <Routes>
@@ -34,6 +50,12 @@ function App() {
 
     <Footer/>
     </BrowserRouter>
+
+    ))
+
+     
+
+   
     </>
   );
 

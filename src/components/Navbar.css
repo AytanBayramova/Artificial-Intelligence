@@ -105,3 +105,25 @@
 .navbar-collapse btn-primaryy{
     margin-left: 200px;
 }
+
+.nav-link{
+position: relative;
+margin-right: 7px;
+}
+
+.nav-link ::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    background-color: #fff;
+    height: 4px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform 1.4s ease ;
+}
+
+.nav-link:hover ::before{
+    transform-origin: left;
+    transform: scaleX(0);
+}
