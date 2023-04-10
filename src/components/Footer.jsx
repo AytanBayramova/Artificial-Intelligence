@@ -29,27 +29,6 @@ const Footer = () => {
         </div>
 
       </div>
-
-
-      <div className="ikinciHisse">
-        <h2>INFORMATION</h2>
-        <p>New Collection</p>
-        <p>About Store</p>
-        <p>Contact Us</p>
-        <p>Latest News</p>
-
-      </div>
-
-
-      <div className="ucuncuHisse"></div>
-
-
-      <div className="dorduncuHisse"></div>
-
-
-      <div className="besinciHisse"></div>
-
-
     </div>
   )
 }

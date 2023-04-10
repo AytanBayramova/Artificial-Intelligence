@@ -25,9 +25,10 @@ textarea{
 
 .ring ::before{
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   top: 0;
+  height: 100%;
   width: 100%;
   box-shadow: 0 0 5px rgba(255, 255, 255, .3);
   border-radius: 50%;

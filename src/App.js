@@ -21,17 +21,18 @@ function App() {
     setTimeout(()=>{
       setLoading(false);
 
-    },7000);
+    },2000);
   }, []); 
 
   return (
     <>
-    (loading ? (
+    {loading ? (
       <div className='center'>
       <div className='ring'></div>
         <span>Loading...</span>
-     </div> :
-     <BrowserRouter>
+     </div> 
+    ):(
+      <BrowserRouter>
     <Navbar/>
 
     <Routes>
@@ -50,11 +51,10 @@ function App() {
 
     <Footer/>
     </BrowserRouter>
+    )}
+    
 
-    ))
-
-     
-
+   
    
     </>
   );
