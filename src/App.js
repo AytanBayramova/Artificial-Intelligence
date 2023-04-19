@@ -15,9 +15,7 @@ function App() {
     <Partnyorlar/>
     <LearnMore/>
     </>
-  );
-
-  
+  );  
 }
 
 export default App;
