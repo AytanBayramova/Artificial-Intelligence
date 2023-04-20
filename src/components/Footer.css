@@ -1,10 +1,12 @@
 
-.mail .tel .unvan{
-    display: flex;
-    justify-content: space-between;
+
+.elaqe{
+    margin-left: 20%;
+    margin-top: 5%;
 }
 
-.sonHisse{
+.ilkHisse{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+  
 }
