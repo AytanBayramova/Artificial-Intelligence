@@ -11,22 +11,14 @@ const Footer = () => {
 
       <div className="ilkHisse">
         <img src={SonLogo} alt="" className='sonlogo' />
-
-      
-        
-
         <div className="elaqe">
           <img className='telefonLogo' src={telsekli} alt="" />
           <p>Phone: (064) 332-1233</p>
           <img className='mailLogo' src={mailSekli} alt="" />
           <p>Company@gmail.com.com</p>
           <img className='unvanLogo' src={unvanSekli} alt="" />
-          <p>450 Wall Street, USA, New York</p>
-        
-        </div>
-
-        
-
+          <p>450 Wall Street, USA, New York</p>    
+        </div>   
       </div>
     </div>
   )
