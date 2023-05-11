@@ -8,7 +8,6 @@ import unvanSekli from '../assests/images/unvan.svg'
 const Footer = () => {
   return (
     <div className='sonHisse row'>
-
       <div className="ilkHisse">
         <img src={SonLogo} alt="" className='sonlogo' />
         <div className="elaqe">
