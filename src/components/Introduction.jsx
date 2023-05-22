@@ -17,7 +17,6 @@ const Introduction = () => {
                     ]}
                     typeSpeed={40}
                     backSpeed={50}
-                   
                     loop >
                    
                 </Typed>
